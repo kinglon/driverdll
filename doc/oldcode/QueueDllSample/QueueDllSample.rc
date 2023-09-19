@@ -1,0 +1,237 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\QueueDllSample.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\QueueDllSample.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_QUEUEDLLSAMPLE_DIALOG DIALOGEX 0, 0, 526, 367
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "QueueDllSample"
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "窗口条屏模块",IDC_STATIC,7,47,77,139
+    LTEXT           "串口号",IDC_STATIC,10,62,25,8
+    EDITTEXT        IDC_EDIT_WS_ComNum,46,58,32,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Open",IDC_BUTTON_WS_Open,10,75,47,14
+    LTEXT           "窗口编号",IDC_STATIC,10,97,33,8
+    EDITTEXT        IDC_EDIT_WS_WinNum,48,96,32,13,ES_AUTOHSCROLL
+    LTEXT           "显示内容",IDC_STATIC,10,114,33,8
+    EDITTEXT        IDC_EDIT_WS_Info,48,113,32,13,ES_AUTOHSCROLL
+    LTEXT           "显示风格",IDC_STATIC,10,130,33,8
+    EDITTEXT        IDC_EDIT_WS_Style,48,129,32,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "ShowInfo",IDC_BUTTON_WS_ShowInfo,10,147,47,14
+    PUSHBUTTON      "Close",IDC_BUTTON_WS_Close,10,165,47,14
+    CONTROL         "List1",IDC_LIST_Log,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,7,229,512,131
+    PUSHBUTTON      "LoadDLL",IDC_BUTTON_LoadDLL,7,7,126,21
+    GROUPBOX        "打印机模块",IDC_STATIC,91,47,77,171
+    LTEXT           "端口号",IDC_STATIC,94,62,25,8
+    EDITTEXT        IDC_EDIT_P_ComNum,130,58,32,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Open",IDC_BUTTON_P_Open,94,75,47,14
+    LTEXT           "图片路径",IDC_STATIC,94,96,33,8
+    EDITTEXT        IDC_EDIT_P_PicFile,132,95,32,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Close",IDC_BUTTON_P_Close,93,196,47,14
+    PUSHBUTTON      "FillPicInfo",IDC_BUTTON_P_FillPicInfo,93,109,49,14
+    LTEXT           "文字内容",IDC_STATIC,93,129,33,8
+    EDITTEXT        IDC_EDIT_P_TextInfo,131,127,32,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "FillTextInfo",IDC_BUTTON_P_FillTextInfo,91,161,53,14
+    PUSHBUTTON      "Print",IDC_BUTTON_P_Print,93,178,53,14
+    LTEXT           "打印风格",IDC_STATIC,93,145,33,8
+    EDITTEXT        IDC_EDIT_P_Style,131,143,32,13,ES_AUTOHSCROLL
+    GROUPBOX        "集中显示屏模块",IDC_STATIC,176,47,77,139
+    LTEXT           "串口号",IDC_STATIC,179,62,25,8
+    EDITTEXT        IDC_EDIT_CS_ComNum,215,58,32,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Open",IDC_BUTTON_CS_Open,179,75,47,14
+    LTEXT           "模块编号",IDC_STATIC,179,97,33,8
+    EDITTEXT        IDC_EDIT_CS_BlockNum,217,96,32,13,ES_AUTOHSCROLL
+    LTEXT           "显示内容",IDC_STATIC,179,114,33,8
+    EDITTEXT        IDC_EDIT_CS_Info,217,113,32,13,ES_AUTOHSCROLL
+    LTEXT           "显示风格",IDC_STATIC,179,130,33,8
+    EDITTEXT        IDC_EDIT_CS_Style,217,129,32,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "ShowInfo",IDC_BUTTON_CS_ShowInfo,179,147,47,14
+    PUSHBUTTON      "Close",IDC_BUTTON_CS_Close,179,165,47,14
+    GROUPBOX        "键盘模块",IDC_STATIC,264,47,77,139
+    LTEXT           "串口号",IDC_STATIC,267,62,25,8
+    EDITTEXT        IDC_EDIT_K_ComNum,303,58,32,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Open",IDC_BUTTON_K_Open,267,75,47,14
+    LTEXT           "窗口编号",IDC_STATIC,267,97,33,8
+    EDITTEXT        IDC_EDIT_K_WinNum,305,96,32,13,ES_AUTOHSCROLL
+    LTEXT           "显示内容",IDC_STATIC,267,114,33,8
+    EDITTEXT        IDC_EDIT_K_Info,305,113,32,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "ShowInfo",IDC_BUTTON_K_ShowInfo,264,130,47,14
+    PUSHBUTTON      "Close",IDC_BUTTON_K_Close,267,165,47,14
+    PUSHBUTTON      "SetCallBack",IDC_BUTTON_K_SetCallBack,265,148,47,14
+    GROUPBOX        "磁条刷卡器模块",IDC_STATIC,345,47,77,90
+    LTEXT           "串口号",IDC_STATIC,349,62,25,8
+    EDITTEXT        IDC_EDIT_MC_ComNum,385,58,32,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Open",IDC_BUTTON_MC_Open,349,75,47,14
+    PUSHBUTTON      "Close",IDC_BUTTON_MC_Close,351,117,47,14
+    PUSHBUTTON      "SetCallBack",IDC_BUTTON_MC_SetCallBack,349,97,47,14
+    GROUPBOX        "IC刷卡器模块",IDC_STATIC,432,47,77,90
+    LTEXT           "串口号",IDC_STATIC,436,62,25,8
+    EDITTEXT        IDC_EDIT_IC_ComNum,472,58,32,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Open",IDC_BUTTON_IC_Open,436,75,47,14
+    PUSHBUTTON      "Close",IDC_BUTTON_IC_Close,438,117,47,14
+    PUSHBUTTON      "SetCallBack",IDC_BUTTON_IC_SetCallBack,436,97,47,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "QueueDllSample Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "QueueDllSample\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2014\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "QueueDllSample.EXE\0"
+            VALUE "ProductName", "QueueDllSample 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_QUEUEDLLSAMPLE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 519
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 360
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\QueueDllSample.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

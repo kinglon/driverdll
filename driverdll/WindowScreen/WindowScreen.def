@@ -1,0 +1,6 @@
+LIBRARY	"BERR.dll"
+EXPORTS
+	
+	BERR_Initialize
+	BERR_Show
+	BERR_GetStatus

@@ -1,0 +1,8 @@
+LIBRARY	"PRNT.dll"
+EXPORTS
+	
+	PRNT_Initialize
+	PRNT_Setup
+	PRNT_PrintData
+	PRNT_Cut
+	PRNT_GetStatus

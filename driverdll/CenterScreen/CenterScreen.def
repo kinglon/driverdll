@@ -1,0 +1,6 @@
+LIBRARY	"COMP.dll"
+EXPORTS
+	
+	COMP_Initialize
+	COMP_Show
+	COMP_GetStatus

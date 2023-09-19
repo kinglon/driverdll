@@ -1,0 +1,9 @@
+LIBRARY	"CRDR.dll"
+EXPORTS
+	
+	CRDR_Initialize
+	CRDR_BeginRead
+	CRDR_DataAvailable
+	CRDR_ReadData
+	CRDR_CancelRead
+	CRDR_GetStatus

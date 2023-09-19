@@ -1,0 +1,6 @@
+LIBRARY	"VOIC.dll"
+EXPORTS
+	
+	VOIC_Initialize
+	VOIC_PlaySound
+	VOIC_GetStatus

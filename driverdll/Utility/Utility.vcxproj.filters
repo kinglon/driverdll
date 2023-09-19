@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{4859e26e-78bc-4b67-9e63-629148751913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="serial">
+      <UniqueIdentifier>{d22fd5de-1216-492b-9da3-b8b9a43e6df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{4f6a0db1-ca48-4e87-88b5-0d8058014913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="charset">
+      <UniqueIdentifier>{10b2f911-6547-4e18-9100-6adb99ab3f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="appsetting">
+      <UniqueIdentifier>{879d6e0b-a7d3-4136-8f8a-f72a25c9880a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="critical_section">
+      <UniqueIdentifier>{8eff1689-ecab-475c-a9e6-5fd2fbc5c9e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stringutil">
+      <UniqueIdentifier>{b84cde9c-faf3-4e34-bbf4-e1a5cc6df09e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="path">
+      <UniqueIdentifier>{fcf62897-be3f-4006-bb69-2772978e3f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="device_setting">
+      <UniqueIdentifier>{0179c60e-f508-4208-84db-09e851d2659a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dump">
+      <UniqueIdentifier>{e1d68aff-fa97-45e0-99dd-92435ccd5807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="guid">
+      <UniqueIdentifier>{1fe4aa4f-3b5e-4556-8055-c72721a3a65c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LogUtil.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LogMacro.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialUtil.h">
+      <Filter>serial</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlUtil.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ImCharset.h">
+      <Filter>charset</Filter>
+    </ClInclude>
+    <ClInclude Include="AppSetting.h">
+      <Filter>appsetting</Filter>
+    </ClInclude>
+    <ClInclude Include="IcrCriticalSection.h">
+      <Filter>critical_section</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtil.h">
+      <Filter>stringutil</Filter>
+    </ClInclude>
+    <ClInclude Include="ImPath.h">
+      <Filter>path</Filter>
+    </ClInclude>
+    <ClInclude Include="LogBuffer.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="ISerialUtil.h">
+      <Filter>serial</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialUtilFactory.h">
+      <Filter>serial</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceSetting.h">
+      <Filter>device_setting</Filter>
+    </ClInclude>
+    <ClInclude Include="IComApi.h">
+      <Filter>serial</Filter>
+    </ClInclude>
+    <ClInclude Include="ComApiFactory.h">
+      <Filter>serial</Filter>
+    </ClInclude>
+    <ClInclude Include="ComApi.h">
+      <Filter>serial</Filter>
+    </ClInclude>
+    <ClInclude Include="MockComApi.h">
+      <Filter>serial</Filter>
+    </ClInclude>
+    <ClInclude Include="DumpUtil.h">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuid.h">
+      <Filter>guid</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LogUtil.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialUtil.cpp">
+      <Filter>serial</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlUtil.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ImCharset.cpp">
+      <Filter>charset</Filter>
+    </ClCompile>
+    <ClCompile Include="AppSetting.cpp">
+      <Filter>appsetting</Filter>
+    </ClCompile>
+    <ClCompile Include="IcrCriticalSection.cpp">
+      <Filter>critical_section</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtil.cpp">
+      <Filter>stringutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ImPath.cpp">
+      <Filter>path</Filter>
+    </ClCompile>
+    <ClCompile Include="LogBuffer.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialUtilFactory.cpp">
+      <Filter>serial</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceSetting.cpp">
+      <Filter>device_setting</Filter>
+    </ClCompile>
+    <ClCompile Include="ComApiFactory.cpp">
+      <Filter>serial</Filter>
+    </ClCompile>
+    <ClCompile Include="ComApi.cpp">
+      <Filter>serial</Filter>
+    </ClCompile>
+    <ClCompile Include="MockComApi.cpp">
+      <Filter>serial</Filter>
+    </ClCompile>
+    <ClCompile Include="DumpUtil.cpp">
+      <Filter>dump</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuid.cpp">
+      <Filter>guid</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

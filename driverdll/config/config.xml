@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<devices>
+    <!--配置条屏发送器串口的端口号，条屏和综合屏共用一个端口，只需在BERR port配置-->
+    <BERR port="10">
+        <!--配置条屏窗口的屏幕号、窗口号、最大显示字数，一个条屏一个Screen节点-->
+        <Screen window_number="1" screen_number="35" max_word_count="8" />
+    </BERR>
+    <!--配置综合屏-->
+    <COMP>
+        <!--配置综合屏的块号、最大显示字数，显示内容前缀，一块综合屏一个Screen节点-->
+        <Screen block_number="1" max_word_count="8" prefix="">
+            <!--综合屏由多个窗口条屏组成，在此配置窗口条屏的屏号-->
+            <Screen_Number value="36" />
+            <Screen_Number value="37" />
+            <Screen_Number value="38" />
+        </Screen>
+    </COMP>
+    <!--配置读卡器串口的端口号-->
+    <CRDR port="20">
+    </CRDR>
+    <!--配置打印机，one_line_max_char_num 每行显示最大字符数， port_type 端口类型  1 USB、2 LPT、3 COM（38400,8,N,1）、4 NET-->
+    <PRNT one_line_max_char_num="28" port_type="3">
+    </PRNT>
+    <!--配置IC卡读卡器，device_type IC卡读卡器设备类型 1 旧款、2 二合一款 -->
+    <ICCR device_type="2">
+    </ICCR>
+</devices>

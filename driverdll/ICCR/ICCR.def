@@ -1,0 +1,9 @@
+LIBRARY	"ICCR.dll"
+EXPORTS
+	
+	ICCR_Initialize
+	ICCR_BeginRead
+	ICCR_DataAvailable
+	ICCR_ReadData
+	ICCR_CancelRead
+	ICCR_GetStatus

@@ -112,7 +112,7 @@ PB_RESULT CIccrManager::ReadData(DWORD dwIndex, OUT LPVOID lpBuffer, IN DWORD dw
     }
     cs.Leave();
 
-    DWORD dwNeedSize = strData.length() + 1;  //º¬Î²²¿\0
+	DWORD dwNeedSize = strData.length();
     if (lpBuffer == nullptr || dwBufferSize == 0)
     {
         *lpNumberOfBytesRead = dwNeedSize;

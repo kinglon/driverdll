@@ -55,9 +55,9 @@ public:
     std::wstring TrimSpace();
 
 	/**
-	@name 去除不可见字符
+	@name 去除非数字的字符
 	*/
-	std::wstring TrimInvisibleChar();
+	std::wstring TrimNoNumberChar();
 
     /**
     @name 将字符串中指定的字符全部删除

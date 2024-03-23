@@ -183,12 +183,12 @@ std::wstring CStringUtil::TrimSpace()
     }
 }
 
-std::wstring CStringUtil::TrimInvisibleChar()
+std::wstring CStringUtil::TrimNoNumberChar()
 {
 	wstring strResult;
 	for (auto ch : m_strData)
 	{
-		if (ch >= L' ' && ch <= L'~')
+		if (ch >= L'0' && ch <= L'9')
 		{
 			strResult += ch;
 		}

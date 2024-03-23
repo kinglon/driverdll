@@ -334,7 +334,7 @@ void CIccrManager::ReadThreadV2()
         }
 
         std::wstring strCardNo = strTrack2Data.substr(firstIndex, secondIndex - firstIndex);
-		strCardNo = CStringUtil(strCardNo.c_str()).TrimInvisibleChar(); //有些卡号尾部会有乱码
+		strCardNo = CStringUtil(strCardNo.c_str()).TrimNoNumberChar(); //有些卡号含有非数字，去除它
         if (strCardNo.empty())
         {
             LOG_ERROR(L"failed to parse the data of the track 2, the data is %s", strTrack2Data.c_str());
